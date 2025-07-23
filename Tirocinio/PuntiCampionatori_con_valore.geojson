@@ -1,0 +1,373 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.789043061215946,
+          40.77467935229559
+        ]
+      },
+      "id": "0",
+      "properties": {
+        "imageUrl": "https://drive.google.com/file/d/1tRS1NllxiIiqUuj289jzWmYL0NAaeh3r/view?usp=sharing",
+        "name": "28 - No2, carbone carbograph nocciolino",
+        "value": 13.70
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.791111111159386,
+          40.7728333333898
+        ]
+      },
+      "id": "1",
+      "properties": {
+        "imageUrl": "https://drive.google.com/file/d/1LcLOXJUrKWEObtHiDkTpYaNcGkCIoVia/view?usp=sharing",
+        "name": "27 - No2",
+        "value": 9.13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.791333333162374,
+          40.773305555387196
+        ]
+      },
+      "id": "2",
+      "properties": {
+        "imageUrl": "",
+        "name": "26 - No2 carbone carbograph nocciolino",
+        "value": 12.45
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.791555555840413,
+          40.77383333355408
+        ]
+      },
+      "id": "3",
+      "properties": {
+        "imageUrl": "",
+        "name": "25 -No2 carbone nocciolino carbograph",
+        "value": 10.54
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.792805555500594,
+          40.77366666755828
+        ]
+      },
+      "id": "4",
+      "properties": {
+        "imageUrl": "https://drive.google.com/file/d/1YAKpB36c85MRSubnkb9iEZsAqS8UYyAF/view?usp=sharing",
+        "name": "24 - No2, nocciolino  carbone carbograph",
+        "value": 12.13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.792638889402907,
+          40.77386111140643
+        ]
+      },
+      "id": "5",
+      "properties": {
+        "imageUrl": "https://drive.google.com/file/d/1YAKpB36c85MRSubnkb9iEZsAqS8UYyAF/view?usp=sharing",
+        "name": "23 - No2 carbone nocciolino carbograph",
+        "value": 8.07
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.78991666635834,
+          40.77338888877858
+        ]
+      },
+      "id": "6",
+      "properties": {
+        "imageUrl": "https://drive.google.com/file/d/12QIOWwCZ73ep5upy6rABrKNz93m-bcIv/view?usp=sharing",
+        "name": "22 - No2",
+        "value": 6.52
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.78948046881508,
+          40.7740297304935
+        ]
+      },
+      "id": "7",
+      "properties": {
+        "imageUrl": "https://drive.google.com/uc?export=view&id=16qq3dv52StwpQIbQQ4DTgVZHlV3EtsjE",
+        "name": "21 -No2, nocciolino carbone carbograph",
+        "value": 10.05
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.78894444416129,
+          40.77408333340982
+        ]
+      },
+      "id": "8",
+      "properties": {
+        "imageUrl": "",
+        "name": "20 -Carbone carbograph nocciolino",
+        "value": 10.05
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.787333366073463,
+          40.77410367902442
+        ]
+      },
+      "id": "10",
+      "properties": {
+        "imageUrl": "",
+        "name": "18 -No2",
+        "value": 20.81
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.786888888960497,
+          40.77444444467831
+        ]
+      },
+      "id": "11",
+      "properties": {
+        "imageUrl": "",
+        "name": "17 -No2, nocciolino carbone carbograph",
+        "value": 9.68
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.787472221941822,
+          40.775249999891166
+        ]
+      },
+      "id": "12",
+      "properties": {
+        "imageUrl": "",
+        "name": "16 - Nocciolino no2 carbone carbograph",
+        "value": 9.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.79170374115037,
+          40.77172176758545
+        ]
+      },
+      "id": "13",
+      "properties": {
+        "imageUrl": "https://drive.google.com/uc?export=view&id=13n1tpfC2jKAXLzq90ZWdLEba7H5W7zv7",
+        "name": "15 - No2",
+        "value": 8.11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.79273928564248,
+          40.7708998661424
+        ]
+      },
+      "id": "14",
+      "properties": {
+        "imageUrl": "https://drive.google.com/uc?export=view&id=1zWJTTn8qrEq8lQ_zKUqrQp5hMtBbPBFU",
+        "name": "14 - No2",
+        "value": 12.19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.792122727898331,
+          40.77055769211525
+        ]
+      },
+      "id": "15",
+      "properties": {
+        "imageUrl": "https://drive.google.com/file/d/1ed1x8ozlBqaPc-GRn2r9F6a3_qmXGeP5/view?usp=sharing",
+        "name": "13 - No2",
+        "value": 13.93
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.78897722745371,
+          40.77260392079067
+        ]
+      },
+      "id": "16",
+      "properties": {
+        "imageUrl": "https://drive.google.com/uc?export=view&id=17rfEGqFPURY6HwGEu3F85sgPUfPY71SS",
+        "name": "12 - biblioteca : No2",
+        "value": 11.78
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.786871191827242,
+          40.77270877263199
+        ]
+      },
+      "id": "17",
+      "properties": {
+        "imageUrl": "https://drive.google.com/uc?export=view&id=1lYvC3CAr_p5RXGXjreg1NWMYwAqRgaKV",
+        "name": "11 -",
+        "value": 5.93
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.793587122061798,
+          40.768211290079165
+        ]
+      },
+      "id": "19",
+      "properties": {
+        "imageUrl": "https://drive.google.com/file/d/1A_KJrEKWOsOhGv4LIJv45i4WXs6AKveX/view?usp=sharing",
+        "name": "9 - No2",
+        "value": 11.01
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.793292011618043,
+          40.76736603953864
+        ]
+      },
+      "id": "20",
+      "properties": {
+        "imageUrl": "https://drive.google.com/file/d/1_SJ0RsKMwPa4BWicfXSacFaPdzxbTR9q/view?usp=sharing",
+        "name": "8 - No2, Nocciolino, Carbone , Carbograph",
+        "value": 10.38
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.7885646409725,
+          40.76950255989621
+        ]
+      },
+      "id": "21",
+      "properties": {
+        "imageUrl": "https://drive.google.com/uc?export=view&id=1eYMTqpQg0ufLuwkIfv2CKwYh6-BZsuDd",
+        "name": "6 - Nocciolino, No2 / 7 - Carbone, Carbograph",
+        "value": 13.11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.788138888677803,
+          40.7761666666742
+        ]
+      },
+      "id": "22",
+      "properties": {
+        "imageUrl": "https://drive.google.com/uc?export=view&id=1IPwoV1G1QLzdR661Y7GjzGmcPrBsZz8l",
+        "name": "4 - N02, Carbone Nocciolino / 5 - Carbone, Carbograph",
+        "value": 15.24
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.787910580455312,
+          40.77459429506655
+        ]
+      },
+      "id": "23",
+      "properties": {
+        "imageUrl": "https://drive.google.com/uc?export=view&id=1gf6IyUGecLRtY47ZPhBuf5S_9d9j-8PC",
+        "name": "2 - No2, Carbone, Nocciolino / 3 - Carbone, Carbograph",
+        "value": 12.45
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.788399326272845,
+          40.77474107854772
+        ]
+      },
+      "id": "24",
+      "properties": {
+        "imageUrl": "https://drive.google.com/file/d/1uhIXhyL0kBO9zu_8aNAUwm93mHD4RZ4_/view?usp=sharing",
+        "name": "1 - NO2",
+        "value": 10.25
+      }
+    }
+  ]
+}
