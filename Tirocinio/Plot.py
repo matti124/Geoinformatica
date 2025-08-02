@@ -20,4 +20,4 @@ fig = px.scatter(
     template="plotly_white"
 )
 
-fig.show()
+fig.write_html("grafico_altitudine_value.html", auto_open=True)

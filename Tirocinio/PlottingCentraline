@@ -1,0 +1,61 @@
+import pandas as pd
+import plotly.express as px
+import glob
+import os
+import plotly.graph_objects as go
+
+# Cartella dove sono i file JSON
+cartella = "FileJson/"
+
+# Lista per salvare i DataFrame
+df_list = []
+
+# Cicla tutti i file .json nella cartella
+
+for file_path in glob.glob(os.path.join(cartella, "*.json")):
+    zona = os.path.splitext(os.path.basename(file_path))[0]  # nome file senza estensione
+    df_tmp = pd.read_json(file_path) #Salvo info del singolo file
+    df_tmp["timestamp"] = pd.to_datetime(df_tmp["timestamp"]) #converto la stringa riguardante timestamp di json in effettiva data
+    df_tmp["zona"] = zona #aggiungo colonna riguardante la zona della centralina
+    df_list.append(df_tmp)
+
+# Unisci tutti i dati in un DataFrame solo
+df = pd.concat(df_list, ignore_index=True)
+
+# GRAFICO ANDAMENTO AQI
+fig = px.line(df, x="timestamp", y="aqi", color="zona", markers=True,
+              title="Andamento AQI nel tempo per zona")
+
+fig.write_html("./GraficiCentraline/graficoAQI.html", auto_open=True)
+
+
+
+#GRAFICO HEATMAP TEMP
+pivot_df = df.pivot(index="timestamp", columns="zona", values="temperatura")
+fig = go.Figure(data=go.Heatmap(
+    z=pivot_df.T.values,
+    x=pivot_df.index,
+    y=pivot_df.columns,
+    colorscale='Viridis'
+))
+fig.update_layout(title="Heatmap Temperatura per zona e giorno",
+                  xaxis_title="Data",
+                  yaxis_title="Zona")
+fig.write_html("./GraficiCentraline/HeatmapTemp.html", auto_open=True)
+
+
+#GRAFICO BOXPLOT TEMP
+fig = px.box(df, x="zona", y="temperatura", title="Distribuzione Temperatura per zona")
+fig.write_html("./GraficiCentraline/BoxPlotTemp.html", auto_open=True)
+
+
+
+#GRAFICO PM1 PM2.5 E PM10
+fig = px.line(df, x="timestamp",  y=["pm1", "pm2_5", "pm10"], facet_col="zona", facet_col_wrap=3,
+              title="Concentrazione PM1, PM2.5 e PM10 nel tempo",
+              labels={"value": "Concentrazione (µg/m³)", "timestamp": "Data"},
+              markers=True)
+fig.write_html("./GraficiCentraline/GraficoPm.html", auto_open=True)
+
+
+
